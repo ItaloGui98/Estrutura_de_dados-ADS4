@@ -160,7 +160,6 @@ def ler_polinomio_da_linha(linha):
         coeficiente = numeros[i]
         grau = int(numeros[i + 1])
         polinomio.inserir(coeficiente, grau)
-    polinomio.simplificar()
     return polinomio
 
 
