@@ -1,0 +1,9 @@
+Complexidade --> Tempo e Espaço
+
+Tempo: O(n), pois percorremos o array e reconstruímos seus elementos.
+
+Espaço: O(n), pois a fila pode armazenar até n elementos.
+
+3. Pergunta reflexiva: Por que a abordagem com fila viola a restrição de espaço O(1), mesmo mantendo tempo O(n)?
+
+Porque a fila utiliza memória auxiliar para armazenar os elementos diferentes de zero. No pior caso, quando todos os elementos são diferentes de zero, a fila precisará armazenar todos os elementos do array. Assim, conforme o tamanho do array aumenta, o espaço utilizado pela fila também aumenta."""
